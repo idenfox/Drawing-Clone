@@ -13,6 +13,7 @@
 		ED9AF33E2631F2B700B0DE79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9AF33D2631F2B700B0DE79 /* Preview Assets.xcassets */; };
 		ED9AF3492631F2B700B0DE79 /* DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF3482631F2B700B0DE79 /* DrawingTests.swift */; };
 		ED9AF3542631F2B700B0DE79 /* DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF3532631F2B700B0DE79 /* DrawingUITests.swift */; };
+		ED9AF365263227EC00B0DE79 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF364263227EC00B0DE79 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		ED9AF34F2631F2B700B0DE79 /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9AF3532631F2B700B0DE79 /* DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUITests.swift; sourceTree = "<group>"; };
 		ED9AF3552631F2B700B0DE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9AF364263227EC00B0DE79 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				ED9AF3362631F2B600B0DE79 /* DrawingApp.swift */,
 				ED9AF3382631F2B600B0DE79 /* ContentView.swift */,
+				ED9AF364263227EC00B0DE79 /* CameraView.swift */,
 				ED9AF33A2631F2B700B0DE79 /* Assets.xcassets */,
 				ED9AF33F2631F2B700B0DE79 /* Info.plist */,
 				ED9AF33C2631F2B700B0DE79 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9AF365263227EC00B0DE79 /* CameraView.swift in Sources */,
 				ED9AF3392631F2B600B0DE79 /* ContentView.swift in Sources */,
 				ED9AF3372631F2B600B0DE79 /* DrawingApp.swift in Sources */,
 			);
@@ -419,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Drawing/Preview Content\"";
-				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
+				DEVELOPMENT_TEAM = 44BQLZF534;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Drawing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -430,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = unfv.Drawing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Drawing/Preview Content\"";
-				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
+				DEVELOPMENT_TEAM = 44BQLZF534;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Drawing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -452,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = unfv.Drawing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

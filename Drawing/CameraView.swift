@@ -13,6 +13,7 @@ struct CameraView: View {
     @StateObject var camera = CameraViewModel()
     var body: some View{
         CameraPreview(camera: camera)
+            .edgesIgnoringSafeArea(.all)
             .onAppear(perform: {
                 camera.checkPermissions()
             })
